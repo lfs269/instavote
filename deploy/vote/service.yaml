@@ -3,6 +3,7 @@ kind: Service
 metadata:
   labels:
     app: vote
+    tier: front
   name: vote
 spec:
   ports:
