@@ -17,5 +17,5 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:dupa
+      - image: schoolofdevops/vote:v3
         name: vote
