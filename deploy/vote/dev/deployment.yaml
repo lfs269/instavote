@@ -9,8 +9,6 @@ spec:
   replicas: 3
   template:
     spec:
-      $setElementOrder/containers:
-      - name: vote
       containers:
       - image: schoolofdevops/vote:v4
         name: vote
