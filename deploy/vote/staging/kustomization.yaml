@@ -13,7 +13,7 @@ replicas:
 
 images:
 - name: schoolofdevops/vote
-  newTag: v5
+  newTag: v6
 
 namespace: instavote
 
@@ -23,7 +23,7 @@ commonLabels:
 
 
 commonAnnotations:
-  supported-by: "sre@example.com"
+  supported-by: "janusz.kujawa@gmail.com"
 
 configMapGenerator:
 - name: vote-options
