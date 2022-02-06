@@ -15,8 +15,6 @@ images:
 - name: schoolofdevops/vote
   newTag: v3
 
-  DUPA
-
 namespace: instavote
 
 commonLabels:
