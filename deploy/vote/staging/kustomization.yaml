@@ -23,7 +23,7 @@ commonLabels:
 
 
 commonAnnotations:
-  supported-by: "janusz.kujawa@gmail.com"
+  supported-by: "k8s-sre@example.com"
 
 configMapGenerator:
 - name: vote-options
