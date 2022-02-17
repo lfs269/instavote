@@ -1,4 +1,4 @@
-Example Voting (Instavote) App
+---+++---Example Voting (Instavote) App
 =========
 
 Getting started
