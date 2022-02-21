@@ -13,6 +13,7 @@ replicas:
 
 images:
 - name: schoolofdevops/vote
+  newName: januszkujawa84/vote
   newTag: v8 #{"$imagepolicy": "flux-system:vote:tag"}
 
 namespace: instavote
