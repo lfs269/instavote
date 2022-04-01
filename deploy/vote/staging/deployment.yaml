@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: vote
+    tier: front
+  name: vote
+spec:
+  replicas: 5
+  template:
+    spec:
+      containers:
+      - image: schoolofdevops/vote:v4
+        name: vote
+        envFrom:
+          - configMapRef: 
+              name: vote-options
+              optional: true
