@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: result
+    tier: front 
+  name: result
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: result
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: result
+        tier: front
+    spec:
+      containers:
+      - image: schoolofdevops/vote-result
+        name: vote-result
+        resources: {}
