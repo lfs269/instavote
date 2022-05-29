@@ -1,5 +1,6 @@
 Example Voting (Instavote) App
 =========
+Addig example vote app
 
 Getting started
 ---------------
