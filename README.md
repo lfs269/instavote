@@ -1,7 +1,6 @@
 Example Voting (Instavote) App
 =========
 
-Thi is a sample voting app.
 
 Getting started
 ---------------
