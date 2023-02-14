@@ -1,7 +1,5 @@
 Example Voting (Instavote) App
 =========
-This ia a sample vote app
-
 Getting started
 ---------------
 
