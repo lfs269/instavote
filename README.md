@@ -1,6 +1,6 @@
 Example Voting (Instavote) App
 =========
-testing the trunk based model
+testing the trunk based model1
 Getting started
 ---------------
 
