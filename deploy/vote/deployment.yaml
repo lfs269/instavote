@@ -18,7 +18,6 @@ spec:
       labels:
         app: vote
         tier: front
-        tier: front
     spec:
       containers:
       - image: schoolofdevops/vote:v1
