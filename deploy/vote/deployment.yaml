@@ -20,7 +20,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: schoolofdevops/vote:v1
+      - image: schoolofdevops/vote:sdq
         name: vote
         resources: {}
 status: {}
