@@ -5,6 +5,7 @@ metadata:
   labels:
     app: vote
     tier: front
+    proj: xyz
   name: vote
 spec:
   replicas: 2
@@ -18,6 +19,7 @@ spec:
       labels:
         app: vote
         tier: front
+        proj: xyz
     spec:
       containers:
       - image: schoolofdevops/vote:v1
