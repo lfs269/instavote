@@ -5,6 +5,7 @@ metadata:
   labels:
     app: vote
     tier: front
+    proj: xyz
   name: vote
 spec:
   ports:
