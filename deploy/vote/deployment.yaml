@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: vote
+  name: vote
+spec:
+  replicas: 1
+  selector:
+    matchLabels:ll
+      app: vote
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: vote
+    spec:
+      containers:
+      - image: schoolofdevops/vote:v4
+        name: vote
+        resources: {}
+status: {}
