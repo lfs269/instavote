@@ -9,7 +9,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabels:ll
+    matchLabels:
       app: vote
   strategy: {}
   template:
