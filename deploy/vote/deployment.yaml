@@ -3,19 +3,21 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: vite
-  name: vite
+    app: vote
+    tier: front
+  name: vote
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: vite
+      app: vote
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: vite
+        app: vote
+        tier: front
     spec:
       containers:
       - image: schoolofdevops/vote:v1
