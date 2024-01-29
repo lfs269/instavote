@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: vite
+  name: vite
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vite
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: vite
+    spec:
+      containers:
+      - image: schoolofdevops/vote:v1
+        name: vote
+        resources: {}
+status: {}
