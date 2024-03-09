@@ -22,5 +22,11 @@ spec:
       containers:
       - image: schoolofdevops/vote:v1
         name: vote
-        resources: {}
+        resources:
+          requests:
+            cpu: "50m"
+            memory: "100Mi"
+          limits:
+            cpu: "50m"
+            memory: "100Mi"
 status: {}
