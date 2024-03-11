@@ -60,12 +60,13 @@ ingress:
   #      - chart-example.local
 
 resources:
-  limits:
-    cpu: 50m
-    memory: 100Mi
-  requests:
-    cpu: 50m
-    memory: 100Mi
+  container:
+    limits:
+      cpu: 50m
+      memory: 100Mi
+    requests:
+      cpu: 50m
+      memory: 100Mi
 
 livenessProbe:
   httpGet:
