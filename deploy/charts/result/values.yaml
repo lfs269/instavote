@@ -62,11 +62,11 @@ ingress:
 resources:
   container:
     limits:
-      cpu: 50m
-      memory: 100Mi
+      cpu: "50m"
+      memory: "100Mi"
     requests:
-      cpu: 50m
-      memory: 100Mi
+      cpu: "50m"
+      memory: "100Mi"
 
 livenessProbe:
   httpGet:
