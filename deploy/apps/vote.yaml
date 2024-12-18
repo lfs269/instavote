@@ -19,3 +19,17 @@ spec:
       - image: schoolofdevops/vote:v4
         name: vote
         resources: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: result
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: tl-vote-dev.dev.cyber.burrito.cloud
+    service.beta.kubernetes.io/azure-load-balancer-internal: "true"
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+  selector:
+    app: vote
