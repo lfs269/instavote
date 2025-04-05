@@ -1,0 +1,30 @@
+name: Test Notebook Code
+# Trigger the workflow on push events to all branches
+on:
+push:
+
+branches:
+- '*'
+jobs:
+test:
+runs-on: ubuntu-latest
+steps:
+- name: Set PYTHONPATH
+run: echo "PYTHONPATH=$PYTHONPATH:$(pwd)" >> $GITHUB_ENV
+# Step 1: Checkout the repository
+- name: Checkout code
+uses: actions/checkout@v3
+# Step 2: Set up Python environment
+- name: Set up Python
+uses: actions/setup-python@v4
+with:
+python-version: 3.9
+# Step 3: Install dependencies
+- name: Install dependencies
+run: |
+pip install -r requirements.txt
+pip install pytest
+# Step 4: Run tests
+- name: Run tests
+run: |
+pytest tests/
