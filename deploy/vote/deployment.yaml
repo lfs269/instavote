@@ -21,4 +21,3 @@ spec:
       - image: schoolofdevops/vote:v1
         name: vote
         resources: {}
-status: {}

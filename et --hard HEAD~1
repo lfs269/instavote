@@ -1,0 +1,53 @@
+[33mcommit a00d4eb64b41093b49bf829ef2793d94438fb1f7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 21:23:13 2025 +0000
+
+    updating README
+
+[33mcommit cdf9a504e1449dc2afa2f3fefa90d9e1148a2032[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 20:58:02 2025 +0000
+
+    added a new label to vote app
+
+[33mcommit 1e4e4f5f6b43bef6589fac6ed14cb15fe065bfe5[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/featureA[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mfeatureA[m[33m)[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 20:53:46 2025 +0000
+
+    updated README
+
+[33mcommit 7f55faec735beebea74c131508856c9388397a52[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 20:53:38 2025 +0000
+
+    added README for deploy code
+
+[33mcommit e8dfe0868b8f8df2fc2bab21b178bb7e36225cea[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 20:19:30 2025 +0000
+
+    updated README
+
+[33mcommit 2bcf9230335c337b598066032447f1bc08193569[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 20:18:54 2025 +0000
+
+    added README for deploy code
+
+[33mcommit e90372f5bef35926ce84862f3c2af5be046b8b3a[m
+Author: prince5784 <amir.medani57@gmail.com>
+Date:   Mon May 26 20:15:22 2025 +0000
+
+    added deploy code for vote and redis
+
+[33mcommit 8e230d58a423d0fd7a0d957ee5775fd204eedbb8[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Mar 30 13:46:57 2021 +0530
+
+    added maintainer details
+
+[33mcommit a64c921b65195bf1f54c51e7247d6db82684a016[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Mar 30 13:39:25 2021 +0530
+
+    initial import
