@@ -16,6 +16,7 @@ spec:
     metadata:
       labels:
         app: vote
+        tier: front
     spec:
       containers:
         - image: schoolofdevops/vote:v4

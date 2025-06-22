@@ -15,4 +15,5 @@ spec:
       targetPort: 80
   selector:
     app: vote
+    tier: front
   type: NodePort
