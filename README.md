@@ -1,8 +1,6 @@
 Example Voting (Instavote) App
 =========
 
-This is the line added for testing and vote app.
-
 Getting started
 ---------------
 
