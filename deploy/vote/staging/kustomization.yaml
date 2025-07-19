@@ -11,4 +11,7 @@ commonLabels:
   env: staging
 commonAnnotations:
   supported-by: "sre@example.com"
+images:
+  - name: schoolofdevops/vote
+    newTag: v8 # {"$imagepolicy": "flux-system:vote:tag"}
 
