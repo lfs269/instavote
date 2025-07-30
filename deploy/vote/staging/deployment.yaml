@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: vote
+  name: vote
+spec:
+  minReadySeconds: 20
+  replicas: 5
+  template:
+    spec:
+      containers:
+        - image: quay.io/yassinelinsoft/vote:v4
+          name: vote
+          envFrom:
+            - configMapRef:
+                name: vote
+                optional: true

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: vote
+    tier: front
+  name: vote
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: vote
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: vote
+    spec:
+      containers:
+      - image: quay.io/yassinelinsoft/vote:v4
+        name: vote
+        resources: {}

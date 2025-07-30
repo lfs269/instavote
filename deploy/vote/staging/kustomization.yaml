@@ -1,0 +1,22 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../base
+patchesStrategicMerge:
+  - deployment.yaml
+  - service.yaml
+namespace: instavote
+commonLabels:
+  project: instavote
+  env: staging
+commonAnnotations:
+  supported-by: "sre@example.com"
+configMapGenerator:
+  - name: vote
+    literals:
+      - OPTION_A=STAGING
+      - OPTION_B=PROD
+images:
+  - name: quay.io/yassinelinsoft/vote:v4
+    newName: ygazzah2/vote
+    newTag: main-e448b031-1753293207 # {"$imagepolicy": "flux-system:vote:tag"}
